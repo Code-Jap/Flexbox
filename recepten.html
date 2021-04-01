@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Code geschreven door Jap</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body background="image/food.jpg">
+    <header>
+        <h1 class="opmaak">Recepten formulier</h1>
+    </header>
+
+
+    <form name="recepten-formulier" method="POST" data-netlify="true" class="border-5">
+        <p>
+            <label>Naam: </label><input type="text" name="naam:">
+        </p>
+        <p>
+            <label>Email: </label><input type="email" name="email:">
+        </p>
+        <p>
+            <label>Telefoonnummer: </label><input type="tel" name="telefoonnummer:">
+        </p>
+        <p>
+            <label>leeftijd: </label><input type="number" name="leeftijd:">
+        </p>
+        <p>
+            <label>Geboortedatum: </label><input type="date" name="geboortedatum:">
+        </p>
+        <hr>
+        <p>
+            <label>Geslacht:</label>
+        </p>
+        <p>
+            <input name="Geslacht:" type="radio" value="man">
+            <label for="man">Man</label>
+            <input name="Geslacht:" type="radio" value="vrouw">
+            <label for="vrouw">Vrouw</label>
+        </p>
+        <p>
+            <label>Favoriete keuken:</label>
+        </p>
+        <p>
+            <input type="checkbox" name="Gerecht:" id="frans" value="frans">
+            <label for="frans">Frans</label><br>
+            <input type="checkbox" name="Gerecht:" id="spaans" value="spaans">
+            <label for="spaans">Spaans</label><br>
+            <input type="checkbox" name="Gerecht:" id="italiaans" value="italiaans">
+            <label for="italiaans">Italiaans</label><br>
+            <input type="checkbox" name="Gerecht:" id="arabisch" value="arabisch">
+            <label for="arabisch">Arabisch</label>
+        </p>
+        <p>
+            <label>Kleur schort: </label><input type="color" name="schort:">
+        </p>
+        <hr>
+        <p>
+            <label>Biografie: </label>
+            <textarea name="biografie:" rows="4" cols="30"></textarea>
+        </p>
+        <p>
+            <label>Upload je laatste gerecht: </label>
+            <input type="file" name="gerecht:">
+        </p>
+        <p>
+            <label>Link naar je recepten website: </label>
+            <input type="url" name="url:">
+        </p>
+        <p>
+            <input type="reset">
+            <input type="submit">
+        </p>
+    </form>
+
+    <nav class="nav">
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="recepten.html">Recepten</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        </nav>
+
+</body>
+
+</html>
